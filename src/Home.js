@@ -8,7 +8,7 @@ const Home = () => {
             <div className='w-1/5 h-screen overflow-y-scroll  scrollbar-thin shadow-md scrollbar-thumb-gray-400 bg-sidebar'>
                 <Sidebar />
             </div>
-            <div className='w-4/5 '>
+            <div className='w-4/5 h-screen overflow-y-auto'>
                 <Dashbord />
             </div>
         </div>
